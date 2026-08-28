@@ -1,6 +1,15 @@
 # UnityWindowing
 A Unity plugin to allow the creation of multi-window applications and games!
 
+### Features
+#### Simple by design
+This plugin was made to feel like a part of Unity. All you need to do to create a window is to add the `WindowRenderer` component to an object with a `Camera` and hit Play. The settings in the Inspector can be changed during play mode and it's easy for your code to react to changes and input with an event driven design. 
+#### User input
+Any user input made to a window is handed to a simulation layer that forwards the inputs to the Unity InputSystem -or the legacy Input- (coming soon). This forwarding also enables UI components to be interacted with. 
+
+### Install Instructions
+TBD
+
 ### LICENCE TL;DR
 - You can use this plugin for commercial or non-commercial works, regardless of your team size.
 - You may modify source code to suit your needs.
@@ -11,3 +20,7 @@ A Unity plugin to allow the creation of multi-window applications and games!
 - You may add copyright a copyright notice to any file you edit with a statement of what you changed.
 - No author can be held liable for unexpected program behavior or bugs and there is no warranty.
 - The Unity files come with their own licence. 
+
+### AI Disclosure
+The code for the rendering backends was written mostly by AI. AI was also used to aid in the debugging of these backends. I used it to help my understanding of Direct3D 12 and to translate it to different APIs once it was working. I do not support replacing knowledge with generative AI but, at the time of this project, I have little desire to learn the intricacies of all of these APIs for something this simple.  
+If you also don't condone replacing knowledge with AI, sign [this petition](https://stoptheracetoreplace.org/).
