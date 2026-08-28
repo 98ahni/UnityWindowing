@@ -1,5 +1,6 @@
-<UnityWindowing. Copyright (C) 2026 98ahni et al.>
+<UnityWindowing. Copyright (C) 2026 98ahni>
 Below is the full list of developers who has contributed to the plugin UnityWindowing so far.
+When used in credits, only the first line of this document is required. 
 Whether in this list or not, all contributions are owned by their authors.
 Next to each name and/or username are ways to directly contact them.
 
