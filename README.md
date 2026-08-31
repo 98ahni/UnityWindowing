@@ -11,7 +11,10 @@ The plugin works with any desktop graphics API (except OpenGL) supported on Wind
 \* I don't have a mac or Linux machine and so I can't compile or test for those platforms. See [Contributing](README.md#contributing) for details on how to compile. 
 
 ### Install Instructions
-TBD
+- Open the Unity Package Manager window (Window > Package Management > Package Manager). 
+- Click the plus in the upper left of the window and choose "Install package from git URL...".
+- Paste the link "https://github.com/98ahni/UnityWindowing.git?path=/Managed" into the field. [(Click to copy)](/javascript:navigator.clipboard.writeText("https://github.com/98ahni/UnityWindowing.git?path=/Managed"))
+- Hit Enter and wait for it to install. 
 
 ### Contributing
 - The Windows version was compiled using Visual Studio 2022 and C/C++ language version set to 23. It also has the macro `_GLFW_WIN32` defined and unicode turned off. 
