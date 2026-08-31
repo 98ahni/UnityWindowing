@@ -13,7 +13,7 @@ The plugin works with any desktop graphics API (except OpenGL) supported on Wind
 ### Install Instructions
 - Open the Unity Package Manager window (Window > Package Management > Package Manager). 
 - Click the plus in the upper left of the window and choose "Install package from git URL...".
-- Paste the link "https://github.com/98ahni/UnityWindowing.git?path=/Managed" into the field. [(Click to copy)](/javascript:navigator.clipboard.writeText("https://github.com/98ahni/UnityWindowing.git?path=/Managed"))
+- Paste the link "https://github.com/98ahni/UnityWindowing.git?path=/Managed" into the field. 
 - Hit Enter and wait for it to install. 
 
 ### Contributing
